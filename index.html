@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#14363c">
+<title>Galicia en 4 días · Guía de viaje</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero" id="top">
+  <svg class="shell" viewBox="0 0 120 120" aria-hidden="true">
+    <g fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+      <path d="M60 106 C20 96 8 56 22 34 C34 16 86 16 98 34 C112 56 100 96 60 106Z"/>
+      <path d="M60 106 L60 22"/><path d="M60 106 L34 26"/><path d="M60 106 L86 26"/>
+      <path d="M60 106 L18 48"/><path d="M60 106 L102 48"/>
+      <path d="M44 112 H76"/>
+    </g>
+  </svg>
+  <p class="hero-kicker">Cuaderno de ruta</p>
+  <h1>Galicia<br><span>en cuatro días</span></h1>
+  <p class="hero-sub">Santiago, las Rías Baixas y la costa del albariño.</p>
+  <div class="overall">
+    <div class="ring" id="ring"><b id="ringPct">0%</b></div>
+    <p><strong id="doneCount">0</strong> de <strong id="totalCount">0</strong> paradas hechas<br><small>Toca una parada para marcarla</small></p>
+  </div>
+  <div class="credencial" id="credencial" aria-label="Sellos de la credencial"></div>
+  <a class="start" href="#guia">Empezar la ruta</a>
+  <svg class="waves" viewBox="0 0 400 60" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0 30 Q50 0 100 30 T200 30 T300 30 T400 30 V60 H0Z"/>
+  </svg>
+</header>
+
+<main id="guia">
+  <section class="day-head" id="dayHead"></section>
+  <div id="dayContent"></div>
+</main>
+
+<footer class="foot">
+  <h3>Tu progreso</h3>
+  <p>Se guarda solo en este móvil. Si cambias de teléfono, copia tu progreso y pégalo allí.</p>
+  <div class="foot-btns">
+    <button id="btnCopy">Copiar progreso</button>
+    <button id="btnPaste">Restaurar progreso</button>
+    <button id="btnReset" class="danger">Empezar de cero</button>
+  </div>
+  <p class="toast" id="toast" role="status"></p>
+</footer>
+
+<nav class="tabbar" id="tabbar" aria-label="Días del viaje"></nav>
+
+<button class="to-top" id="toTop" aria-label="Volver arriba">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
