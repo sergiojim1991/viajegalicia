@@ -22,10 +22,10 @@ const DAYS = [
     eatPlace: "Santiago de Compostela" },
 
   { id: 2, tab: "Rías Baixas", stamp: "Pontevedra", color: "#2d6a4f",
-    title: "Lauriñán, Pontevedra y Combarro",
+    title: "Lourizán, Pontevedra y Combarro",
     intro: "Un pazo, una ciudad de plazas y un pueblo de hórreos frente al mar.",
     zones: [
-      { name: "Pazo de Lauriñán", place: "Poio, Pontevedra", stops: [{ n: "Pazo de Lauriñán" }] },
+      { name: "Pazo de Lourizán", place: "Poio, Pontevedra", stops: [{ n: "Pazo de Lauriñán" }] },
       { name: "Pontevedra", place: "Pontevedra", stops: [
         { n: "Ruínas de Santo Domingo" }, { n: "Praza da Peregrina" }, { n: "Convento de San Francisco" },
         { n: "Rúa Soportales" }, { n: "Praza da Verdura" }, { n: "Praza da Leña" }, { n: "Praza da Ferrería" },
